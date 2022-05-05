@@ -1,0 +1,56 @@
+.Products{
+    float: left;
+    background-image: url(../public/img/code.png);
+    background-blend-mode: multiply;
+    background-color: #4f1c75;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+img{
+    width: 400px;
+}
+div .product {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
+    height: 520px;
+    margin: 100px;
+    padding: 10px;
+}
+div .product:hover{
+    background-color: rgba(104, 104, 104, 0.308);
+}
+.products{
+    background-color: none;
+    width: 1872px;
+    height: 700px;
+    display: flex;
+    margin: 0px;
+    padding-left: 30px;
+}
+.modal{
+    position: absolute;
+    height: 800px;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: rgba(114, 113, 113, 0.938);
+    z-index: 2;
+    left: 450px
+}
+button{
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    background-color: darkslategrey;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.modal-img{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
